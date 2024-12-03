@@ -36,7 +36,17 @@
           active-class="active"
         >Regular uploader</router-link>
       </li>
+
+      <li class="menu-item">
+        <router-link
+          to="/video"
+          class="link menu-link"
+          active-class="active"
+        >Video uploader</router-link>
+      </li>
     </ul>
+
+    <UploadcareVideoConverter />
 
     <div class="source">
     <span class="source-title">

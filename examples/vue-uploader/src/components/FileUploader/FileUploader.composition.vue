@@ -8,6 +8,7 @@
 
 import * as UC from "@uploadcare/file-uploader";
 import { onBeforeUnmount, onMounted, ref } from "vue";
+import UploadcareVideoConverter from './components/UploadcareVideoConverter.vue';
 
 UC.defineComponents(UC);
 
